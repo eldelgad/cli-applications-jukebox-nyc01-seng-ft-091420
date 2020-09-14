@@ -28,7 +28,7 @@ def play(songs)
   song_name = gets.strip
   # binding.pry
   if song_name = songs
-    puts "playing #{songs}"
+    puts "Playing #{songs}"
   elsif song_name != songs
     puts "Invalid input, please try again"
   end
