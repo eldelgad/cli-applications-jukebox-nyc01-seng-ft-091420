@@ -55,20 +55,23 @@ end
 
 def run
   
-  puts "Please enter a command:"
-  user_input = gets.chomp
+  while true do
   
-    if user_input = "exit"
-      exit_jukebox
-      break
-    elsif user_input = "play"
-      play(songs)
-    elsif user_input = "help"
-      help
-    elsif user_input = "list"
-      list(songs)
-    else
-      puts "Invalid entry"
-    end
-    
+  puts "Please enter a command:"
+  user_input = gets.strip
+  
+  if user_input = "exit"
+    exit_jukebox
+  elsif user_input = "play"
+    play(songs)
+  elsif user_input = "help"
+    help
+  elsif user_input = "list"
+    list(songs)
+  else
+    puts "Invalid entry"
+  end
+  
+end
+  
 end
