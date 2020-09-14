@@ -28,7 +28,7 @@ def play(songs)
   song_name = gets.strip
   
   # binding.pry
-  if song_name.to_i >= songs && song_name.to_i <= songs.length
+  if song_name.to_i >= 1 && song_name.to_i <= songs.length
      puts "Playing #{songs[song_name.to_i-1]}"
   elsif songs.include?(song_name)
     puts "Playing #{songs.find{|element| element == song_name}}"
