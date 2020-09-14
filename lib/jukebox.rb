@@ -41,7 +41,6 @@ def list(songs)
   
     binding.pry
   
-  end
   
 end
 
