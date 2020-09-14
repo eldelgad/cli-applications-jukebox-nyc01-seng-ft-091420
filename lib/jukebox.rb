@@ -29,7 +29,7 @@ def play(songs)
   # binding.pry
   if song_name = songs
     puts "playing #{songs}"
-  elsif song_name = ""
+  elsif song_name == false
     puts "Invalid input, please try again"
   end
   
