@@ -53,7 +53,7 @@ def exit_jukebox
   
 end
 
-def run(user_input, songs)
+def run(user_input)
   
   while true do
     
