@@ -68,6 +68,5 @@ def run
       list(songs)
     else
       puts "Invalid entry"
-    end
   end
 end
