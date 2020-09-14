@@ -32,6 +32,8 @@ def play(songs)
   elsif songs.include?(song_name)
     puts "Playing #{songs.find{|element| element == song_name}}"
   else
+    puts "Invalid input, please try again"
+  end
   
 end
 
