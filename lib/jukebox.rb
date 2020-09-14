@@ -67,7 +67,7 @@ def run(user_input)
     when "help"
       help
     when "list"
-      list(songs)
+      list
     else
       puts "Invalid entry"
     end
