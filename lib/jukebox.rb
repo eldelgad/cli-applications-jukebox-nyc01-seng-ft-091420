@@ -1,3 +1,5 @@
+require 'pry'
+
 # Add your code here
 
 # def say_hello(name)
@@ -35,7 +37,11 @@ end
 
 def list(songs)
   
+  songs.each_with_index |element|
   
+    binding.pry
+  
+  end
   
 end
 
