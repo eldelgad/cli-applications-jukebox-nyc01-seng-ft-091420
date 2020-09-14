@@ -37,9 +37,9 @@ end
 
 def list(songs)
   
-  songs.each_with_index |element|
+  # songs.each_with_index |element|
   
-    binding.pry
+  #   binding.pry
   
   
 end
