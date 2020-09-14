@@ -59,7 +59,8 @@ def run
   user_input = gets.chomp
   
     if user_input = "exit"
-      return exit_jukebox
+      exit_jukebox
+      break
     elsif user_input = "play"
       play(songs)
     elsif user_input = "help"
