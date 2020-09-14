@@ -55,24 +55,21 @@ end
 
 def run
   
-while true do
+  while true do
   
     puts "Please enter a command:"
     user_input = gets.strip
-    
-    case user_input
-      when "exit"
-        exit_jukebox
-        break
-      when "play"
-        play(songs)
-      when "help"
-        help
-      when "list"
-        list(songs)
-      else
-        puts "Invalid entry"
-      end
-    end
   
+    if user_input = "exit"
+      exit_jukebox
+    elsif user_input = "play"
+      play(songs)
+    elsif user_input = "help"
+      help
+    elsif user_input = "list"
+      list(songs)
+    else
+      puts "Invalid entry"
+    end
+  end
 end
