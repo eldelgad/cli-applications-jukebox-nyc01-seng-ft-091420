@@ -30,8 +30,8 @@ def play(songs)
   if song_name.to_i >= songs && song_name.to_i <= songs.length
      puts "Playing #{songs[song_name.to_i-1]}"
   elsif songs.include?(song_name)
-    puts "Playing #{songs.find{|element| song == song_name}}"
-  end
+    puts "Playing #{songs.find{|element| element == song_name}}"
+  else
   
 end
 
