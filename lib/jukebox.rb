@@ -20,15 +20,18 @@ def help
   
 end
 
-def list
+def play(songs)
+  
+  puts 
+  
+end
+
+def list(songs)
+  
   
   
 end
 
-def play
-  
-  
-end
 
 def exit_jukebox
   
