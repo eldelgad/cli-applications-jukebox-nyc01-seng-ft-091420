@@ -22,7 +22,14 @@ end
 
 def play(songs)
   
-  puts 
+  puts "Please enter a song name or number:"
+  song_name = gets.strip
+  
+  if song_name == songs
+    puts "playing #{songs}"
+  else
+    puts "Invalid input, please try again"
+  end
   
 end
 
