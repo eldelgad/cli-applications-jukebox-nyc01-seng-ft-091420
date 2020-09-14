@@ -57,8 +57,8 @@ def run
   
 while true do
     puts "Please enter a command:"
-    response = gets.chomp
-    case response
+    user_input = gets.chomp
+    case user_input
     when "exit"
       exit_jukebox
       break
