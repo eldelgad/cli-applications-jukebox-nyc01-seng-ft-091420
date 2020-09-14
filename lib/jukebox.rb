@@ -30,7 +30,7 @@ def play(songs)
   if song_name = songs
     puts "Playing #{songs}"
   elsif song_name != songs
-    puts "Invalid input, please try again"
+    return "Invalid input, please try again"
   end
   
 end
