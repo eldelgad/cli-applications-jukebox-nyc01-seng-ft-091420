@@ -27,7 +27,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   song_name = gets.strip
   # binding.pry
-  if song_name.to_i >= songs
+  if song_name.to_i >= songs && song_name.to_i <= songs.length
     puts "Playing #{songs}"
   elsif song_name > songs
     return "Invalid input, please try again"
