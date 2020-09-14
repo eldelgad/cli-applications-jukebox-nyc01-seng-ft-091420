@@ -40,8 +40,6 @@ def list(songs)
   
   songs.each_with_index |item, index|
   
-    binding.pry
-  
   
 end
 
