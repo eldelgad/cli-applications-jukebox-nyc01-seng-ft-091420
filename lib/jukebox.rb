@@ -56,21 +56,23 @@ end
 def run
   
 while true do
+  
     puts "Please enter a command:"
-    user_input = gets.chomp
+    user_input = gets.strip
+    
     case user_input
-    when "exit"
-      exit_jukebox
-      break
-    when "play"
-      play(songs)
-    when "help"
-      help
-    when "list"
-      list(songs)
-    else
-      puts "Invalid entry"
+      when "exit"
+        exit_jukebox
+        break
+      when "play"
+        play(songs)
+      when "help"
+        help
+      when "list"
+        list(songs)
+      else
+        puts "Invalid entry"
+      end
     end
-  end
   
 end
